@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import dj_database_url
+import os
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -76,7 +78,17 @@ WSGI_APPLICATION = 'MyShop.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = { 'default': dj_database_url.config(default=os.environ.get('DATABASE_URL')), }
+#DATABASES = {'default': dj_database_url.config(default=os.environ.get('DATABASE_URL')), }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'ybaocmwf',
+        'HOST': 'ziggy.db.elephantsql.com',
+        'USER': 'ybaocmwf',
+        'PASSWORD': 'dfJ2It5Vz8KJ-bb2rErHbPpqDeDIO6n5',
+        'PORT': '5432'
+    }
+}
 
 
 # Password validation
@@ -116,3 +128,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
