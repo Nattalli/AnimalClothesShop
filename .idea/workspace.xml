@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a82f1efc-9bed-4524-bb05-30047e81552d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1oM3WVp3vimcrXSoHdBUdznYMab" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_task" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myUseExistingConsole" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Наталия\Desktop\MyShop" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MyShop" type="Python.DjangoServer" factoryName="Django server">
+      <module name="MyShop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Наталия\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a82f1efc-9bed-4524-bb05-30047e81552d" name="Default Changelist" comment="" />
+      <created>1613082664614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613082664614</updated>
+      <workItem from="1613082668195" duration="3930000" />
+      <workItem from="1613089263640" duration="677000" />
+      <workItem from="1613089957635" duration="1469000" />
+      <workItem from="1613112550605" duration="17369000" />
+      <workItem from="1613463571120" duration="3156000" />
+      <workItem from="1613502119375" duration="694000" />
+      <workItem from="1613510404343" duration="982000" />
+      <workItem from="1613511868180" duration="16000" />
+      <workItem from="1613512124239" duration="5000" />
+      <workItem from="1613513129163" duration="26000" />
+      <workItem from="1613716834781" duration="362000" />
+      <workItem from="1614029920148" duration="8000" />
+      <workItem from="1614338605160" duration="7000" />
+      <workItem from="1614632502283" duration="612000" />
+      <workItem from="1614764356779" duration="10584000" />
+      <workItem from="1614798101391" duration="6018000" />
+      <workItem from="1614952372134" duration="8102000" />
+      <workItem from="1615019204134" duration="5093000" />
+      <workItem from="1615215914737" duration="2460000" />
+      <workItem from="1615321171122" duration="2804000" />
+      <workItem from="1615366822687" duration="1608000" />
+      <workItem from="1615394173865" duration="598000" />
+      <workItem from="1615397384928" duration="94000" />
+      <workItem from="1615409182718" duration="4485000" />
+      <workItem from="1615449448266" duration="1968000" />
+      <workItem from="1615456291169" duration="7343000" />
+      <workItem from="1615485235835" duration="17007000" />
+      <workItem from="1615531161538" duration="1725000" />
+      <workItem from="1615533816307" duration="175000" />
+      <workItem from="1615545981278" duration="15000" />
+      <workItem from="1615978433209" duration="662000" />
+      <workItem from="1616069316321" duration="2773000" />
+      <workItem from="1616083005588" duration="8315000" />
+      <workItem from="1616100568805" duration="37000" />
+      <workItem from="1616926829545" duration="74000" />
+      <workItem from="1617297359695" duration="18024000" />
+      <workItem from="1617341917554" duration="3930000" />
+      <workItem from="1617351641114" duration="249000" />
+      <workItem from="1617360825363" duration="5927000" />
+      <workItem from="1617368040548" duration="125000" />
+      <workItem from="1617377246787" duration="10530000" />
+      <workItem from="1617390243321" duration="258000" />
+      <workItem from="1617390533020" duration="845000" />
+      <workItem from="1617539618639" duration="13000" />
+      <workItem from="1617655635847" duration="1495000" />
+      <workItem from="1617816592649" duration="10515000" />
+      <workItem from="1617868821777" duration="1000" />
+      <workItem from="1617892256008" duration="6966000" />
+      <workItem from="1617946877663" duration="930000" />
+      <workItem from="1618130827895" duration="5000" />
+      <workItem from="1618482841278" duration="7766000" />
+      <workItem from="1618497548561" duration="3052000" />
+      <workItem from="1618510985224" duration="4586000" />
+      <workItem from="1618551484260" duration="2557000" />
+      <workItem from="1618555340371" duration="631000" />
+      <workItem from="1618753116684" duration="599000" />
+      <workItem from="1618768089315" duration="326000" />
+      <workItem from="1618922017815" duration="1300000" />
+      <workItem from="1618946491390" duration="6872000" />
+      <workItem from="1619013977075" duration="2846000" />
+      <workItem from="1619022636813" duration="6263000" />
+      <workItem from="1619080415546" duration="3754000" />
+      <workItem from="1619088452248" duration="105000" />
+      <workItem from="1619106021101" duration="107000" />
+      <workItem from="1619121395701" duration="5875000" />
+      <workItem from="1619158237460" duration="631000" />
+      <workItem from="1619174260943" duration="313000" />
+      <workItem from="1619261473448" duration="3000" />
+      <workItem from="1619515719506" duration="141000" />
+      <workItem from="1620221875783" duration="16000" />
+      <workItem from="1620326023424" duration="3798000" />
+      <workItem from="1620334663610" duration="2516000" />
+      <workItem from="1620337501732" duration="227000" />
+      <workItem from="1620338151144" duration="4192000" />
+      <workItem from="1620346636554" duration="734000" />
+      <workItem from="1620408471656" duration="721000" />
+      <workItem from="1620649866945" duration="1100000" />
+      <workItem from="1620934254282" duration="219000" />
+      <workItem from="1626812187903" duration="56000" />
+      <workItem from="1626965561160" duration="229000" />
+      <workItem from="1630001154495" duration="6700000" />
+      <workItem from="1630151778571" duration="510000" />
+      <workItem from="1630152703991" duration="43000" />
+      <workItem from="1630152837954" duration="2805000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

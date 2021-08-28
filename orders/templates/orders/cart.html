@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Shop Homepage - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="css/shop-homepage.css" rel="stylesheet">
+
+</head>
+<style>
+  body{
+  padding-top: 56px;
+}
+</style>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/animalshop">Aniishop</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/animalshop">Головна сторінка
+            </a>
+          </li>
+              <ul class="navbar-nav">
+           {% if not request.user.is_authenticated %}
+          <li>
+            <a class ="nav-link text-light"  href="{% url 'login' %}">Вхід</a>
+          </li>
+          <li>
+            <a class ="nav-link text-light"  href= "{% url 'registration' %}">Реєстрація</a>
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <span class="navbar text text-light">Вітаю, {% if request.user.is_authenticated %} <span class="badge badge-danger">
+            <a style="text-decoration: none; font-size: 14px;color: #ffb6c1; " href ="{% url 'profile' %}">{{ request.user.username}}</a></span>{% else %} Анонім! {% endif %}<a href="{% url 'logout' %}">| Вийти</a></span>
+            <li class="nav-item">
+            <a class="nav-link" href="{% url 'cart' %}">Кошик </a>
+            </li>
+            {% endif %}
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+        <!-- /.row -->
+
+      </div>
+      <!-- /.col-lg-9 -->
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <div>
+
+{% for item in cart.products.all %}
+
+        <tr>
+          <div>
+          <td class="w-25"><img src="{{ item.product.photo.url }}" class="img-fluid"></td>
+          </div>
+          <td>{{ item.product.price }} грн.</td>
+           <h5>
+            <td>{{ item.final_price }} грн. - Сумарна ціна</td>
+          </h5>
+          <hr>
+          <div>
+          </div>
+          <td>
+            <form action="{% url 'change_qty' slug=item.product.slug %}" method="POST">
+              {% csrf_token %}
+              <input type="number" class="form-control" name="qty" style="width: 70px;" min="1" value="{{ item.qty }}">
+              <br>
+              <div>
+              <input type="submit" class="btn btn-primary" value="Змінити кількість">
+              </div>
+            </form>
+          </td>
+          <div>
+          </div>
+          <td>
+            <div>
+            <a href="{% url 'delete_from_cart' slug=item.product.slug %}">
+              <button class="btn btn-danger">Видалити з корзини</button></a>
+              </div>
+          </td>
+          <hr>
+        </tr>
+    {% endfor %}
+    <div>
+        <tr>
+          <td colspan="2"></td>
+          <td>{{ cart.total_products }}</td>
+          <td><a href="{% url 'checkout' %}"><button class="btn btn-primary">Перейти до оформлення</button></a></td>
+        </tr>
+    </div>
+</div>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Nataliia Zakharchuk Website 2021</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
